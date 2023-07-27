@@ -1,0 +1,142 @@
+html,body{
+    margin: 0;
+}
+.container-fluid{
+    position: relative;
+}
+.image{
+    width: 100%;
+    /* max-width: 100%; */
+    height: 750px;
+}
+.overlay{
+    position: absolute;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    text-align: center;
+    width: 50%;
+    top: 300px;
+    right: 360px; 
+}
+.overlay h1{
+    color: #f1dab8;
+    font-size: 50px;
+    padding-bottom: 35px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: Cinzel, serif;
+}
+.overlay button{
+    background: #7bdcb5;
+    border: 2px;
+    border-radius: 5px;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: Cinzel, serif;
+}
+.overlay button:hover{
+    background: aqua;
+    transition: 0.5s;
+} 
+.col-7 button{
+    background-color: #7bdcb5;
+    border: 2px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-family: Cinzel, serif;
+} 
+.spots{
+    position: relative;
+    
+}
+.caramoan-overlay{
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left: 20px;
+    background: linear-gradient(to bottom, rgba(249,246,239,0.96) 10%, rgba(249,246,239,0.45) 95%);
+    padding: 20px;
+}
+.caramoan-overlay button{
+    background-color: #7bdcb5;
+    border: 2px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: Cinzel, serif;
+    
+}
+.house{
+    position: relative;
+}
+.house-overlay{
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    right: 20px;
+    background: linear-gradient(to top, rgba(249,246,239,0.96) 10%, rgba(249,246,239,0.45) 95%);
+    padding: 20px;
+}
+.house-overlay button{
+    background-color: #7bdcb5;
+    border: 2px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: Cinzel, serif;    
+}
+.card-body button{
+    background-color: #7bdcb5;
+    border: 2px;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    font-family: Cinzel, serif;
+    font-size: 18px;
+    
+}
+.nav-link{
+    font-family: Cinzel, serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+.navbar-brand{
+    color: #7eae74;
+}
+.nav-link:hover{
+    color: #7eae74;
+}
+.carousel-indicators > button {
+    border-radius: 50%;
+    width: 15px !important;
+    height: 15px !important;
+    color: black;
+}
+/* .carousel-item{ 
+    height:800px; 
+    background-size:cover;
+    background-position: center center;
+} */
+#footer{
+    font-family: "Roboto",sans-serif;
+}
+#footer button{
+    border: none;
+    background: none;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.footer2{
+    font-family: "Roboto",sans-serif;
+    font-size: 12px;
+}

@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+}
+.container-fluid{
+    position: relative;
+}
+.image{
+    width: 100%;
+}
+.contact-overlay{
+    position: absolute;
+    width: 45%;
+    top: 50%;
+    left: 35px;
+    background: linear-gradient(to top, rgba(249,246,239,0.96) 5%, rgba(249,246,239,0.45) 95%);
+    padding: 20px;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+}
+.nav-link{
+    font-family: Cinzel, serif;
+    font-weight: 500;
+    font-size: 17px;
+}
+.navbar-brand{
+    color: #7eae74;
+}
+.nav-link:hover{
+    color: #7eae74;
+}
+#footer{
+    font-family: "Roboto",sans-serif;
+}
+#footer button{
+    border: none;
+    background: none;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.footer2{
+    font-family: "Roboto",sans-serif;
+    font-size: 12px;
+}
+.input-cont{
+    width: 100%;
+    display: flex;
+    gap: 1em;
+    margin-bottom: 1em;
+    justify-content: center;
+}
+.name-input{
+    padding: .5em;
+    width: 45%;
+    border-radius: .5em;
+    /* border: none; */
+    margin: 1em;
+}
+.contactform{
+    font-family: Cinzel, serif;
+    font-size: 30px;
+    padding-top: 30px;
+}
+.contact{
+    font-family: Cinzel, serif;
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.4;
+    letter-spacing: 0px;
+}
+.contactus-cont button{
+    border: none;
+    background: none;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.submit{
+    margin-left: 16px;
+    background: #7bdcb5;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
